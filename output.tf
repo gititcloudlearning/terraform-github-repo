@@ -3,6 +3,6 @@
   
 # }
 
-output "repo_id" {
+output "clone_path" {
 value = github_repository.repo.ssh_clone_url
 }
