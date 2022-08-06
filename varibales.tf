@@ -4,6 +4,6 @@ variable "repo_name" {
 
 variable "token" {
     type = string
-    default = "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"
+    default = "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"
 }
 variable "description" {}
