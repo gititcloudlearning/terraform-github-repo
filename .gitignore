@@ -1,0 +1,47 @@
+# ansible
+*.retry
+__remote_*
+
+# chef / vagrant
+*.vagrant
+*.lock
+*.host_vars
+TODO
+*~
+
+# eclipse
+.classpath
+.project
+.metadata
+.settings/
+
+# intellij
+.idea/
+*.iml
+*.iws
+atlassian-ide-plugin.xml
+
+# java
+*.class
+*.jar
+*.war
+*.ear
+
+# mac
+*.DS_Store*
+
+# maven
+log/
+target/
+dependency-reduced-pom.xml
+
+# terraform
+.terraform/
+.terraform.lock.hcl
+.terraform.tfstate.lock.info
+*.tfstate*
+*.tfstate.backup
+*.tfstate.*.backup
+*.swp
+*.tfplan
+*.plan
